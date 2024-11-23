@@ -20,5 +20,6 @@ pip install pillow==10.0.0
 
 git clone https://github.com/husejinbg/Tracking-Anything-with-DEVA.git
 cd Tracking-Anything-with-DEVA
+git checkout xtrack
 pip install -q -e .
 export PYTHONPATH=$PYTHONPATH:$(pwd)
